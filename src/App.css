@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.taskBg{
+background-color: #282c34;
+border-radius: 6px;
+margin-bottom: 20px;
+padding: 10px 140px 10px 15px;
+text-align: left;
+font-size: 22px;
+position: relative;
+color: antiquewhite;
+}
+.taskBg .done .taskText{
+text-decoration: line-through;
+opacity: 0.3;
+}
